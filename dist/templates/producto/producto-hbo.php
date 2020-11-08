@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row Producto__wrapper-cols">
       <div class="col-lg-4 col-md-6 mob-order-1">
-        <h2 class="Producto__title Producto__title--hbo">todo ilimitado*</h2>
+        <h2 class="Producto__title Producto__title--hbo">3x3x3</h2>
         <article class="Producto__text">
           <!-- <h4>¡La programación más exclusiva <span>será tuya!</span></h4> -->
           <p>Datos para navegar, redes sociales, llamadas y SMS. </p>

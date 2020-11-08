@@ -39,10 +39,10 @@ function renderList(cities, camps) {
     camps.forEach((campaignName) => {
       let link = document.createElement("a")
       let text = document.createTextNode(
-        `https://megacable-promociones.com.mx/mega-movil/?campaign=${campaignName}&city=${city}&ag=or&page=entry`
+        `https://megacable-promociones.com.mx/movil-buenfin/?campaign=${campaignName}&city=${city}&ag=or&page=entry`
       )
       link.appendChild(text)
-      link.href = `https://megacable-promociones.com.mx/mega-movil/?campaign=${campaignName}&city=${city}&ag=or&page=entry`
+      link.href = `https://megacable-promociones.com.mx/movil-buenfin/?campaign=${campaignName}&city=${city}&ag=or&page=entry`
       link.target = "_blank"
       wrapperList.appendChild(link)
     })

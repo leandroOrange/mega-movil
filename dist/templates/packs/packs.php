@@ -7,7 +7,7 @@
     </div>
   </div>
 </div>
-<div class="Packs" id="packs">
+<!-- <div class="Packs" id="packs">
   <div class="container">
     <div class="row Packs__prices">
       <article class="col-lg-3 col-md-6 packs-desktop">
@@ -36,8 +36,8 @@
       </div>
     </div>
   </div>
-</div>
-<div style="background: #e0e0e0; padding: 40px 0;">
+</div> -->
+<!-- <div style="background: #e0e0e0; padding: 40px 0;">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6">
@@ -45,8 +45,8 @@
       </div>
     </div>
   </div>
-</div>
-<div class="Packs">
+</div> -->
+<!-- <div class="Packs">
   <div class="container">
     <div class="row Packs__prices">
       <article class="col-lg-3 col-md-6 packs-desktop">
@@ -72,4 +72,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
