@@ -80,7 +80,7 @@ function scriptsJs() {
 
 function server(done) {
   browserSync.init({
-    proxy: "http://localhost/orange/megacable/mega-movil/dist/",
+    proxy: "http://localhost/orange/megacable/mega-movil-buen-fin/dist/",
   })
   done()
 }
