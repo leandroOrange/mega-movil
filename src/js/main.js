@@ -141,17 +141,6 @@ window.addEventListener("DOMContentLoaded", function () {
     items: 1,
   })
 
-  // Preload
-  let $preload = $("#preload")
-  let $body = $("body#body")
-  setTimeout(() => {
-    $preload.addClass("hide")
-    $body.addClass("show")
-    AOS.init({
-      duration: 800,
-    })
-  }, 800)
-
   // Set ID Forms
   const formularios = document.querySelectorAll("form")
   formularios.forEach((el, i) => {
@@ -172,4 +161,39 @@ window.addEventListener("DOMContentLoaded", function () {
       $(this).removeClass("selected")
     },
   })
+
+  /* //////// */
+  function scrollToTop() {
+    SCROLL.to = "#hero"
+    SCROLL.scroll()
+  }
+
+  const url_string = window.location.href
+  const url = new URL(url_string)
+  const agency = url.searchParams.get("ag")
+
+  const $select_header = $("#select-header")
+  const $select_popup = $("#select-popup")
+  const $nav_header = $("#nav-header")
+  const $pop_up = $(".Popup")
+  const $body = $("body#body")
+
+  if (agency == "or") {
+    $pop_up.addClass("show")
+    $(".wrapper-select").addClass("show")
+    $nav_header.hide()
+
+    $select_header.on("change", function () {
+      scrollToTop()
+    })
+
+    $select_popup.on("change", function () {
+      $select_header.val(this.value)
+      $pop_up.addClass("hide")
+      $body.addClass("show")
+      scrollToTop()
+    })
+  } else {
+    $body.addClass("show")
+  }
 })

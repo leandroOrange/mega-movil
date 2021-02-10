@@ -54,6 +54,9 @@ switch (($_GET['campaign'])) {
   case 'fb-trafico':
     $token = $orange->get('token-trafico');
     break;
+  case 'fb-brand':
+    $token = $orange->get('token-brand');
+    break;
   case 'video':
     $token = $orange->get('token-fb-video');
     break;
@@ -178,7 +181,7 @@ switch (($_GET['campaign'])) {
     </div>
 
   <?php include 'templates/fixed-send-form/fixed-send-form.php';?>
-  <?php include 'templates/preload/preload.php';?>
+  <?php include 'templates/pop-up/pop-up.php';?>
   <?php include 'templates/header/header.php';?>
   <?php include 'templates/hero/hero.php';?>
   <?php include 'templates/producto/producto-hbo.php';?>

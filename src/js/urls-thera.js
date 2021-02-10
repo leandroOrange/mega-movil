@@ -27,6 +27,7 @@ const theraCamp = [
   "fb-breach",
   "fb-conversions",
   "fb-trafico",
+  "fb-brand",
   "y-preroll",
 ]
 

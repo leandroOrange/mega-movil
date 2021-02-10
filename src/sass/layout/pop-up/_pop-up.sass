@@ -1,0 +1,39 @@
+.Popup
+  position: fixed
+  z-index: 9999
+  width: 100vw
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  backdrop-filter: blur(5px)
+  background-color: rgba(0,0,0,.5)
+  padding: 15px
+  opacity: 0
+  visibility: hidden
+  transition: opacity .3s, visibility .3s
+  .inner-modal
+    background-color: #fff
+    background-image: url('../img/promo/back.png')
+    background-repeat: repeat
+    background-size: cover
+    background-position: center
+    padding: 30px 30px 60px 30px
+    border-radius: 5px
+    text-align: center
+    width: 500px
+    max-width: 500px
+    img
+      width: 220px
+      margin-bottom: 35px
+    h4
+      font-weight: bold
+      margin-bottom: 25px
+
+.Popup.show
+  opacity: 1
+  visibility: visible
+
+.Popup.hide
+  opacity: 0
+  visibility: hidden

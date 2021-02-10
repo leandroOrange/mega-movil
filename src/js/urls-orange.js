@@ -1,33 +1,6 @@
 const wrapperList = document.querySelector("#wrapper-list")
-const cities = [
-  "leon",
-  "queretaro",
-  "nicolas-romero",
-  "toluca",
-  "veracruz",
-  "torreon",
-  "guadalajara",
-  "tepic",
-  "culiacan",
-  "tuxtla",
-  "puebla",
-  "morelia",
-  "hermosillo",
-  "durango",
-  "xalapa",
-  "mochis",
-  "mazatlan",
-  "obregon",
-  "guaymas",
-]
-const orangeCamp = [
-  "display",
-  "fb-branding",
-  "fb-breach",
-  "fb-conversions",
-  "fb-trafico",
-  "video",
-]
+const cities = ["base"]
+const orangeCamp = ["fb-conversions", "fb-brand", "video"]
 
 function renderList(cities, camps) {
   cities.forEach((city) => {
