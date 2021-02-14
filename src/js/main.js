@@ -1,5 +1,5 @@
 "use strict"
-
+AOS.init()
 window.addEventListener("DOMContentLoaded", function () {
   //Globals variables
   const $bodyHtml = $("body, html")
